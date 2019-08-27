@@ -2,12 +2,11 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-/*img {
-  display: inline-block;
-  max-width:100%;
-  height: auto;
+p, h2 {
+  margin: 0;
+  padding: 0;
 }
-*/
+
 .container {
   width: 900px;
   margin: 0 auto;
@@ -28,6 +27,7 @@ nav {
   margin: 0px;
   padding: 0px;
   font-size: 0px;
+  text-align: center;
 }
 
 .menu li {
@@ -37,7 +37,6 @@ nav {
 }
 
 .menu li:first-child {
-  margin-left: 165px;
   margin-right: 122px;
 }
 
@@ -54,10 +53,10 @@ nav {
 } 
 
 .menu a {
+  display: block;
   color: rgb(98, 98, 98);
   font-weight: 400;
   text-decoration: none; 
-  /*line-height: 16px;*/
 }
 
 
@@ -67,11 +66,18 @@ nav {
 }
 
 /*article style*/
+
+.article {
+  padding-bottom: 70px;
+  text-align: center;
+}
+
 .article-list {
   list-style: none;
   margin: 0;
   padding: 0;
   font-size: 0;
+  text-align: -webkit-auto;
 }
 
 .article-list-item {
@@ -97,13 +103,12 @@ nav {
   font-size: 14px;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
-  margin-bottom: 31px;
 }
 
 .article-list-item h2 {
   font-size: 30px;
   color: rgb(98, 98, 98);
-  margin-bottom: 36px;
+  margin: 31px 0 36px 0;
 }
 
 .article-list-item p {
@@ -118,11 +123,9 @@ button {
   color: rgb(98, 98, 98);
   border: solid 1px rgb(98, 98, 98);
   background-color: #fff;
-  padding: 20px 33px;  
+  padding: 20px 33px;
+  margin-top: 50px;
+  cursor: pointer;
 }
 
-.button {
-  text-align: center;
-  margin: 50px 0 70px 0;
-}
 

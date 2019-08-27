@@ -20,7 +20,7 @@ nav {
 }
 
 .main-nav {
-  padding: 77px 0 103px 0;
+  padding: 72px 0 99px 0;
 }
 
 .menu {
@@ -86,26 +86,24 @@ nav {
   margin-right: 0;
 }
 
-.article-list-item:nth-last-child(1),
-.article-list-item:nth-last-child(2)
- {
-  margin-bottom: 55px;
+.article-list-item:nth-last-child(-n+2) {
+  margin-bottom: 0px;
 }
 
 .article-list-item img {
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 .article-list-item span {
   font-size: 14px;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
-  margin-bottom: 28px;
+  margin-bottom: 31px;
 }
 
 .article-list-item h2 {
   font-size: 30px;
   color: rgb(98, 98, 98);
-  margin-bottom: 41px;
+  margin-bottom: 36px;
 }
 
 .article-list-item p {
@@ -125,6 +123,6 @@ button {
 
 .button {
   text-align: center;
-  margin-bottom: 70px;
+  margin: 50px 0 70px 0;
 }
 

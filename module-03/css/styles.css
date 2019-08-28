@@ -100,15 +100,17 @@ nav {
   margin-bottom: 31px;
 }
 .article-list-item span {
+  display:inline-block;
   font-size: 14px;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
+  margin-bottom: 31px;
 }
 
 .article-list-item h2 {
   font-size: 30px;
   color: rgb(98, 98, 98);
-  margin: 31px 0 36px 0;
+  margin-bottom: 36px;
 }
 
 .article-list-item p {

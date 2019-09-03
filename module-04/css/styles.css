@@ -91,8 +91,8 @@ h2::after {
   font-size: 14px;
   list-style: none;
   margin: 0;
+  margin-top: 8px;
   padding: 0;
-  
 }
 
 .menu li {
@@ -125,6 +125,7 @@ h2::after {
   margin-right: 0;
 }
 .menu a {
+  display: block;
   color: #000;
   font-weight: 700;
   text-transform: uppercase;
@@ -254,18 +255,22 @@ h3:after {
   margin-bottom: 14px;
 }
 
-button {
+.article-list-item a {
+  display: block;
   font-size: 16px;
+  text-decoration: none;
   text-transform: capitalize;
+  text-align: center;
   color: #fff;
   border: solid 1px #4ec6ab;
   background-color: #4ec6ab;
   border-radius: 3px;
-  padding: 18px 43px;
-  cursor: pointer;
+  width: 160px;
+  height: 62px;
+  padding: 17px 0px;
 }
 
-button:hover,
-button:focus {
+.article-list-item a:hover,
+.article-list-item a:focus {
   background-color: #4ecfab;
 }

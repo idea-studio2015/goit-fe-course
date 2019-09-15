@@ -280,8 +280,9 @@ h2::after {
   width: 166px;
   height: 107px;
   position: relative;
-  top: 79px;
-  left: 35px;   
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .overlay-like,
@@ -363,16 +364,16 @@ h2::after {
   text-align: center;
 }
 
-.collection-list-item>a:hover .overlay {
+.collection-list-item:hover .overlay {
   opacity: 1;
 }
 
-.collection-list-item>a:hover p {
+.collection-list-item:hover p {
   background-color: #1abc9c;
 }
 
-.collection-list-item>a:hover span {
-  background-color: #7fd9c7
+.collection-list-item:hover span {
+  background-color: #7fd9c7;
 }
 
 

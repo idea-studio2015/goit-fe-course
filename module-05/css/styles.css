@@ -390,6 +390,7 @@ h2::after {
 
 .copytext a {
   color: #46bfa9;
+  text-decoration: none;
 }
 
 .copytext a:hover,

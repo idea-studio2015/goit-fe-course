@@ -104,10 +104,17 @@ h3, h4 {
   color: #95e1d3;
   font-weight: 700;
   text-transform: uppercase;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 .menu-items a:hover,
+.menu-items a:active,
 .menu-items a:focus {
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
   color: #f38181;
 }
 
@@ -206,6 +213,10 @@ h3, h4 {
 
 .team-list-block {
   position: relative;
+  transform: none;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 .team-list-social {
@@ -230,10 +241,17 @@ h3, h4 {
   background-color: rgb(252, 227, 138);
   background-repeat: no-repeat;
   background-position: center;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;  
 }
 
 
-.team-list-social a:hover {
+.team-list-social a:hover,
+.team-list-social a:active,
+.team-list-social a:focus {
+  transition-property: background-color;
+  transition-duration: 0.2s;
   background-color: #95e1d3;
 }
 
@@ -279,6 +297,9 @@ h3, h4 {
 }
 
 .team-list-item:hover .team-list-block {
+  transition-property: transform;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
   transform: translate(-10px, -10px);
 }
 

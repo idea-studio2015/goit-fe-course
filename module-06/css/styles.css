@@ -81,7 +81,7 @@ h3, h4 {
   text-decoration: none;
 }
 
-.menu {
+ul {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   display: inline-flex;
@@ -93,7 +93,7 @@ h3, h4 {
   width: 490px;
 }
 
-.menu li {
+li {
   margin: 0;
   padding: 0;
   position: relative;
@@ -134,14 +134,18 @@ h3, h4 {
 .service, 
 .team {
   text-align: center;
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 .service-subtitle,
 .team-subtitle {
+  display: block;
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
+  text-transform: none;
+  font-weight: normal;
   color: #333333;
+  line-height: 24px;
   margin-bottom: 20px;
 }
 
@@ -154,7 +158,7 @@ h3, h4 {
   list-style: none;
   margin: 0 10px;
   padding: 0;
-  
+  width: 100%;
 }
 
 .service-list li {
@@ -172,18 +176,43 @@ h3, h4 {
   margin-bottom: 0;
 }
 
- .service-img {
+.service-list-item::before {
+  content: '';
   display: flex;
   height: 32px;
-  margin: 0 auto;
-} 
+  width: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.service-icon-1::before {
+  background-image: url(/img/service/icon-1.png);
+}
+
+.service-icon-2::before {
+  background-image: url(/img/service/icon-2.png);
+}
+
+.service-icon-3::before {
+  background-image: url(/img/service/icon-3.png);
+}
+
+.service-icon-4::before {
+  background-image: url(/img/service/icon-4.png);
+}
+
+.service-icon-5::before {
+  background-image: url(/img/service/icon-5.png);
+}
+
+.service-icon-6::before {
+  background-image: url(/img/service/icon-6.png);
+}
 
 .service-list-item-text {
   width: 300px;
   text-align: left;
 }
-
-
 
 /* team-section styles */
 
@@ -205,6 +234,7 @@ h3, h4 {
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .team-list-item {

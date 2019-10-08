@@ -9,224 +9,80 @@
   <title>Homework Module-07</title>
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="container">
+    <nav class="main-nav">
       <a href="#">
         <h1>
           Golden
         </h1>
       </a>
-      <ul class="menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
+      <ul class="menu-list">
+        <li class="menu-items"><a href="#">Home</a></li>
+        <li class="menu-items"><a href="#">Services</a></li>
+        <li class="menu-items"><a href="#">Portfolio</a></li>
+        <li class="menu-items"><a href="#">About</a></li>
+        <li class="menu-items"><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section class="services">
       <div class="container">
-        <h2>Services <span>Proin iaculis purus consequat sem cure. </span></h2>   
+        <h2>Services <span class="subtitle-services">Proin iaculis purus consequat sem cure.</span></h2>   
         <ul class="service-list">
           <li>
-            <div class="service-item">
-              <h4>E-Commerce</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non perferendis animi, molestias ipsam voluptatibus obcaecati!</p>
+            <div class="service-item icon-cart">
+              <h3>E-Commerce</h3>
+              <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </div>
           </li>
           <li>
-            <div class="service-item">
-              <h4>Responsive Web</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis consectetur animi ea, reiciendis neque cum?</p>
+            <div class="service-item icon-laptop">
+              <h3>Responsive Web</h3>
+              <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </div>
           </li>
           <li>
-            <div class="service-item">
-              <h4>Web-Security</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe tempore repellendus commodi maxime? Assumenda, laudantium?</p>
+            <div class="service-item icon-lock">
+              <h3>Web-Security</h3>
+              <p>Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
             </div>
           </li>
         </ul>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contact">
       <div class="container">
-        <form class="form-validation" method="post" action="script.php">
-          <div class="sub-entry">
-            <div class="form-row form-input-name-row">
+        <h2>Contact Us <span class="subtitle-contact">Proin iaculis purus consequat sem cure.</span></h2>
+        <form class="form-block" method="post" action="#">
+          <div class="left-form">
+            <div class="">
                   <label>
-                      <span>Name</span>
-                      <input name="field1" type="text">
+                      <input name="user-name" type="text" placeholder="Your Name*" required>
                   </label>
               </div>
-              <div class="form-row form-input-name-row">
+              <div class="">
                   <label>
-                      <span>Age</span>
-                      <input name="field2" type="text">
+                      <input name="user-email" type="email" placeholder="Your E-mail*" required>
                   </label>
-            </div>
+              </div>
+              <div class="">
+                <label>
+                    <input name="mails-suject" type="text" placeholder="Subject">
+                </label>
+              </div>
           </div>
-          <div class="sub-entry">
-              <div class="form-row form-input-name-row">
-                      <label>
-                          <span>Name</span>
-                          <input name="field3" type="text">
-                      </label>
-                  </div>
-                  <div class="form-row form-input-name-row">
-                      <label>
-                          <span>Age</span>
-                          <input name="field4" type="text">
-                      </label>
-              </div>
+          <div class="right-form">
+                <label>
+                  <textarea name="user-message" placeholder="Your message*" required></textarea>
+                </label>
           </div>
       </form>
       <div class="button">
-          <button name="submit">Submit both forms</button>
+          <input type="submit" value="Send Message" id="send_mail">
       </div>
       </div>
     </section>
   </main> 
 </body>
 </html>
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto:300i,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Homework Module-06</title> 
-</head>
-<body>
-  <header class="container">
-    <nav class="main-nav">
-      <a href="#" class="logo">
-        <h1>MoGo</h1>
-      </a>
-      <ul>
-        <li class="menu-items"><a href="#">about</a></li>
-        <li class="menu-items"><a href="#">service</a></li>
-        <li class="menu-items"><a href="#">blog</a></li>
-        <li class="menu-items"><a href="#">work</a></li>
-        <li class="menu-items"><a href="#">contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="service">
-      <div class="container">
-        <h2 class="service-title"><span class="service-subtitle">We work with</span>amazing services</h2>
-        <ul class="service-list">
-          <li class="service-list-item service-icon-1">
-              <div class="service-list-item-text">
-              <h3>photogaphy</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, odio.</p>
-            </div>
-          </li>
-          <li class="service-list-item service-icon-2">
-              <div class="service-list-item-text">
-              <h3>web design</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, illum.</p>
-            </div>
-          </li>
-          <li class="service-list-item service-icon-3">
-            <div class="service-list-item-text">
-              <h3>creativity</h3>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi, dolores?</p>
-            </div>
-          </li>
-          <li class="service-list-item service-icon-4">
-            <div class="service-list-item-text">
-              <h3>seo</h3>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, dolore.</p>
-            </div>
-          </li>
-          <li class="service-list-item service-icon-5">
-            <div class="service-list-item-text">
-              <h3>css/html</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, corporis.</p>
-            </div>
-          </li>
-          <li class="service-list-item service-icon-6">
-            <div class="service-list-item-text">
-              <h3>digital</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quam.</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="team">
-      <div class="container">
-        <h2 class="team-title"><span class="team-subtitle">Who we are</span>meet our team</h2>
-        <p class="team-aftertitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ad reprehenderit repellendus ea fugit, ducimus veniam eius placeat commodi dolor sit, facilis blanditiis praesentium aspernatur velit debitis, itaque quidem. Labore!</p>
-        <ul class="team-list">
-          <li class="team-list-item">
-              <div class="team-list-block">
-                <img src="img/team/member-1.jpg" width="380" height="470" class="team-member">
-                <ul class="team-list-social">
-                  <li><a href="#" class="icon-facebook"><span class="visually-hidden">facebook</span></a></li>
-                  <li><a href="#" class="icon-twitter"><span class="visually-hidden">twitter</span></a></li>
-                  <li><a href="#" class="icon-pinterest"><span class="visually-hidden">pinterest</span></a></li>
-                  <li><a href="#" class="icon-instagram"><span class="visually-hidden">instagram</span></a></li>
-                </ul>
-              </div>
-              <div class="team-text-group">
-                <h4>Christopher Campbell</h4>
-                <p>UX Designer</p>
-              </div>
-          </li>
-          <li class="team-list-item">
-              <div class="team-list-block">
-                <img src="img/team/member-2.jpg" width="380" height="470" class="team-member">
-                <ul class="team-list-social">
-                  <li><a href="#" class="icon-facebook"><span class="visually-hidden">facebook</span></a></li>
-                  <li><a href="#" class="icon-twitter"><span class="visually-hidden">twitter</span></a></li>
-                  <li><a href="#" class="icon-pinterest"><span class="visually-hidden">pinterest</span></a></li>
-                  <li><a href="#" class="icon-instagram"><span class="visually-hidden">instagram</span></a></li>
-                </ul>
-              </div>
-              <div class="team-text-group">
-                <h4>Christopher Campbell</h4>
-                <p>Hhtml Developer</p>
-              </div>
-          </li>
-          <li class="team-list-item">
-            <div class="team-list-block">
-              <img src="img/team/member-3.jpg" width="380" height="470" class="team-member">
-              <ul class="team-list-social">
-                <li><a href="#" class="icon-facebook"><span class="visually-hidden">facebook</span></a></li>
-                <li><a href="#" class="icon-twitter"><span class="visually-hidden">twitter</span></a></li>
-                <li><a href="#" class="icon-pinterest"><span class="visually-hidden">pinterest</span></a></li>
-                <li><a href="#" class="icon-instagram"><span class="visually-hidden">instagram</span></a></li>
-              </ul>
-            </div>
-            <div class="team-text-group">
-              <h4>Christopher Campbell</h4>
-              <p>Back-end Developer</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer class="container">
-    <div class="copyright">
-      <div class="copytext">
-        <p>© 2016 MoGo free PSD template by <a href="#" target="_blanc">Laaqiq </a></p>
-      </div>
-      <div class="subscribe">
-        <input type="email" value="" placeholder="Your Email...">
-        <input type="submit" value="SUBSCRIBE">
-      </div>
-    </div>
-  </footer>
-</body>
-</html> -->

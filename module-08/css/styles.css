@@ -104,6 +104,7 @@ section {
 
 header {
   position: relative;
+  min-width: 320px;
 }
 
 .top-section {
@@ -208,6 +209,7 @@ a.logo {
   border-radius: 20px;
   padding: 15px 50px;
   background-color: #ff4e50;
+  z-index: 100;
 }
 
 .find:hover,
@@ -226,7 +228,7 @@ a.logo {
   margin-bottom: 57px;
 }
 
-.partners-list {
+ul {
   list-style: none;
   text-align: center;
   margin: 0;
@@ -234,7 +236,7 @@ a.logo {
   width: 100%;
 }
 
-li  {
+li {
   margin: 0 0 30px;
   padding: 0;
   position: relative;
@@ -311,4 +313,233 @@ li  {
   padding: 15px 70px;
   background-color:#ff4e50;
   cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+
+h2 {
+  margin-bottom: 35px;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+section {
+  min-width: 700px;
+  text-align: center;
+}
+
+/* header section */
+
+.main-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 30px 50px 40px; 
+  width: 100%;
+}
+
+a.logo {
+  display: inline-flex;
+  width: auto;
+}
+
+.top-section {
+  margin-bottom: 650px;
+}
+  
+.top-image {
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/bg-tablet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0px;
+  z-index: -1;
+}
+
+.top-image-content {
+  padding-top: 220px;
+}
+
+.enter-block {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 150px;
+  padding: 0px;
+}
+
+.top-image-text {
+  font-size: 52px;
+  line-height: 63px;
+  margin-bottom: 35px;
+  padding: 0 40px;
+}
+
+.top-image-subtext {
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 40px;
+}
+
+/* partners style  */
+
+ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  width: 236px;
+  margin-bottom: 40px;
+  }
+  
+li:nth-child(-n+2) {
+  margin-bottom: 60px;
+}
+
+.partners-text {
+  padding: 0px 22px;
+}
+}
+
+@media screen and (min-width: 700px) {
+
+h2 {
+  margin-bottom: 35px;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+section {
+  min-width: 700px;
+  text-align: center;
+}
+
+/* header section */
+
+.main-nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 30px 50px 40px; 
+  width: 100%;
+}
+
+a.logo {
+  display: inline-flex;
+  width: auto;
+}
+
+.top-section {
+  margin-bottom: 650px;
+}
+  
+.top-image {
+  position: absolute;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+  background-image: url(../img/bg-tablet.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0px;
+  z-index: -1;
+}
+
+.top-image-content {
+  padding-top: 220px;
+}
+
+.enter-block {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 150px;
+  padding: 0px;
+}
+
+.top-image-text {
+  font-size: 52px;
+  line-height: 63px;
+  margin-bottom: 35px;
+  padding: 0 40px;
+}
+
+.top-image-subtext {
+  font-size: 24px;
+  line-height: 29px;
+  padding-top: 40px;
+}
+
+/* partners style  */
+
+ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+li {
+  width: 236px;
+  margin-bottom: 40px;
+  }
+  
+li:nth-child(-n+2) {
+  margin-bottom: 60px;
+}
+
+.partners-text {
+  padding: 0px 22px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+  
+section {
+  min-width: 1440px;
+}
+  
+/* header section */
+  
+.main-nav {
+  padding: 30px 248px 40px;
+}
+ 
+.top-section {
+  margin-bottom: 650px;
+}
+    
+.top-image {
+  background-image: url(../img/bg.jpg);
+}
+  
+.top-image-text {
+  padding: 0 415px;
+}
 }

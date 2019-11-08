@@ -1,0 +1,30 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  border-top: 1px solid $color-light-grey;
+  align-items: center;
+}
+
+.copytext {
+  display: inline-flex;
+}
+
+.copytext__text {
+  font-family: $secondary-font;
+  font-size: 14px;
+  color: $color-grey;
+}
+
+.copytext__link {
+  color: $color-light-red;
+
+  &:hover,
+  &:focus {
+    color: $color-blue;
+  }
+}
+
+.subscribe {
+  display: inline-flex;
+}

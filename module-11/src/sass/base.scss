@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: $main-font;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: $secondary-font;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-family: $main-font;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 32px;
+  color: #333333;
+  margin-bottom: 110px;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 40px auto 0;
+  background-color: #f38181;
+}
+
+h3, h4 {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 14px;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

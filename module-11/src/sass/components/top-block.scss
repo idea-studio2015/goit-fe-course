@@ -1,0 +1,43 @@
+.top-block {
+  margin: auto;
+  text-align: center;
+}
+
+.top-block__text {
+  display: block;
+  font-family: $sub-font;
+  font-size: 72px;
+  line-height: 72px;
+  color: $main-color;
+  width: 840px;
+  margin: auto;
+}
+
+.top-block__subtext {
+  display: block;
+  font-family: $secondary-font;
+  font-size: 150px;
+  font-weight: 700;
+  color: $main-color;
+  line-height: 140px;
+  text-transform: uppercase;
+  padding: 55px 0 125px 0;
+}
+
+.top-block__link {
+  font-family: $secondary-font;
+  font-weight: bold;
+  color: $main-color;
+  border: 3px solid $main-color;
+  padding: 8px 21px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    color: $color-red;
+    background-color: $main-color;
+    border: 3px solid $color-red;
+  }
+}

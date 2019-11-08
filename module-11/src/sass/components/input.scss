@@ -1,0 +1,35 @@
+input[type="email"] {
+  font-family: $main-font;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  color: $color-grey;
+  width: 230px;
+  height: 40px;
+  border: 1px solid $color-light-grey;
+  border-right: none;
+  padding-left: 15px;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+  color: $color-light-grey;
+}
+
+input[type="email"]::-moz-placeholder {
+  color: $color-light-grey;
+}
+
+input[type="submit"] {
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: $main-color;
+  background-color: $color-blue;
+  width: 150px;
+  height: 40px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

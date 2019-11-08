@@ -1,0 +1,34 @@
+@media (min-resolution:192dpi), (min-resolution: 2dppx) {
+  .page-header {
+    background-image: url(../images/main-bg@2x-min.jpg);
+  }
+
+  .service__item::before {
+    height: 64px;
+  }
+
+  .service__icon--icon-1::before {
+    background-image: url(../images/service/icon-1@2x-min.png);
+  }
+
+  .service__icon--icon-2::before {
+    background-image: url(../images/service/icon-2@2x-min.png);
+  }
+
+  .service__icon--icon-3::before {
+    background-image: url(../images/service/icon-3@2x-min.png);
+  }
+
+  .service__icon--icon-4::before {
+    background-image: url(../images/service/icon-4@2x-min.png);
+  }
+
+  .service__icon--icon-5::before {
+    background-image: url(../images/service/icon-5@2x-min.png);
+  }
+
+  .service__icon---icon-6::before {
+    background-image: url(../images/service/icon-6@2x-min.png);
+  }
+
+}
